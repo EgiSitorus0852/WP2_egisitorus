@@ -4,7 +4,7 @@ class Model_latihan1 extends CI_Model
     //membuat variabel untuk menampung nilai
     public $nilai1, $nilai2, $hasil;
 
-    //method penjumlahan
+    //method penjumlahan.
     public function jumlah($nil1 = null, $nil2 = null)
     {
         $this->nilai1 = $nil1;
